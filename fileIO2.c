@@ -4,7 +4,7 @@
 #include <conio.h>
 #include <string.h>
 #include <stdlib.h>
-int main()
+char *replaceWord(const char *str, const char) int main()
 {
     /*
     YOu have to fill in values to a template letter.txt
