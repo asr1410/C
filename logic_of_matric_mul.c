@@ -5,7 +5,7 @@
 int main()
 {
     int a, b, c, d, e = 1;
-    printf("enter the values\");
+    printf("enter the values\n");
     printf("value of a = ");
     scanf("%d", &a);
     printf("value of b = ");

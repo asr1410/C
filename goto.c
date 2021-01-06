@@ -3,7 +3,7 @@
 
 int main()
 {
-label:
+begin:
     printf("HOW ARE YOU\n");
     printf("we are at end\n");
 
@@ -17,7 +17,7 @@ label:
             scanf("%d", &num);
             if (num == 0)
             {
-                goto end;
+                goto begin;
             }
         }
     }

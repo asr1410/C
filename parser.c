@@ -28,6 +28,7 @@ void parser(char *string)
             index++;
         }
     }
+    printf("the pasred string is ~~%s~~", string);
     string[index] = '\0';
     //Remove the trailing spaces from the beginning
     while (string[0] == ' ')
