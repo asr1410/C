@@ -4,7 +4,7 @@
 int main()
 {
     int arr[] = {13, 25, 36, 47, 58, 65, 7};
-    int *arrptr = arr;
+    int *arrptr = arr; //
     printf("Value at postion 1 of the array is %d\n", arr[1]);
 
     printf("The address of first element of the array %d\n", &arr[0]);

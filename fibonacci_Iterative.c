@@ -9,9 +9,9 @@ int main()
     scanf("%d", &n);
     if (n > 0)
     {
-        for (i = 1; i <= n; i++)
+        for (i = 1; i < n + 1; i++)
         {
-            if (i <= 2)
+            if (i < 3)
             {
                 second = i - 1;
             }

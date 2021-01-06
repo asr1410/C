@@ -8,20 +8,24 @@ int main()
     printf("Enter the no to enter = ");
     scanf("%d", &n);
     ptr = (int *)calloc(n, sizeof(int));
+
     if (ptr == NULL)
     {
         printf("Error memory not allocated");
         exit(0);
     }
-    printf("Enter the elements");
+    printf("Enter the elements\n");
     for (int i = 0; i < n; i++)
     {
+        printf("%d. ", i + 1);
         scanf("%d", ptr + i);
         sum += *(ptr + i);
     }
 
-    printf("the sum is %d", sum);
+    printf("the sum is %d\n", sum);
     //Deallocation of ponter memory
+    printf("%d\n", sizeof(ptr));
     free(ptr);
+    printf("%d\n", sizeof(ptr));
     return 0;
 }

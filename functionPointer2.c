@@ -24,8 +24,8 @@ void greetGmAndExecute(int (*fptr)(int, int))
 int main()
 {
     int (*ptr)(int, int);
-    ptr = sum;
-    greetGmAndExecute(ptr);
-    greetHelloAndExecute(ptr);
+    ptr = &sum;
+    greetGmAndExecute(*ptr);
+    greetHelloAndExecute(*ptr);
     return 0;
 }

@@ -1,0 +1,2 @@
+ptr);
+    printf("%c", c);
